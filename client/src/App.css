@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: poppins,Arial,sans-serif;
+
+}
+
+.form-control {
+  font-size: 1rem;
+  font-style: italic;
+  padding: 20px 10px;
+}
+input[type="text"],button:focus{
+  outline: none;
+  box-shadow:none !important;
+  border:1px solid grey !important;
+}
+.nav-shadow{
+  box-shadow: 0px 1px 10px #999;
+}
+.example-enter {
+  opacity: 0.01;
+}
+
+.example-enter.example-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+.example-leave {
+  opacity: 1;
+}
+
+.example-leave.example-leave-active {
+  opacity: 0.01;
+  transition: opacity 100ms ease-in;
+}
+@media screen and (max-width: 600px){
+  .nav-shadow{
+     color: #999;
+     top: 0;
+ }
+ .logo{
+   display: none;
+ }
+ *{
+   font-size: inherit !important;
+ }
+}  
